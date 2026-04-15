@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# screen-connect: serial console helper
-# Usage: screen-connect
+# screen2: serial console helper
+# Usage: screen2
 
 set -euo pipefail
 
