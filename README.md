@@ -1,6 +1,12 @@
 # screen2
 
-A minimal CLI tool for macOS to simplify serial console access via `screen`. Instead of manually looking up device names and typing the full command, `screen2` lists all available USB serial devices and lets you connect with a few keystrokes.
+Simple, minimal, and practical — that’s the goal. There’s little reason to install tools like PuTTY just to perform a quick console or SSH access. This project was born out of that exact frustration.
+
+In day-to-day use, it was common to see people relying on full-featured tools for a very simple task: connecting to a serial console. On macOS (and Linux as well), this can already be done natively with `screen` — but it still requires remembering commands, identifying device names, and typing everything manually.
+
+`screen2` started as a small personal script to remove that friction. The idea is straightforward: automatically list available devices and let you connect with just a few keystrokes. No bloat, no unnecessary dependencies — just a fast and direct way to get the job done.
+
+It was originally built for macOS (my current environment), but it should work just fine on Linux. With some adjustments, it can likely be adapted for Windows too.
 
 ## Features
 
