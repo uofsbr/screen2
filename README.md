@@ -19,7 +19,7 @@ A minimal CLI tool for macOS to simplify serial console access via `screen`. Ins
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/screen2.git
+git clone https://github.com/uofsbr/screen2.git
 cd screen2
 
 # Make the script executable
